@@ -21,6 +21,6 @@ func BinarySearch(list []int, x int) string {
 		}
 	}
 
-	result := fmt.Sprintf("item %v found in %v time try instead of %v",a[r],count,x)
+	result := fmt.Sprintf("item %v found in %v time try instead of %v",list[r],count,x)
 	return result
 }
